@@ -3,8 +3,8 @@ for x in range(2, 16, 2):
 
 
 
-x = 1
-results = ("Turkey", "Cheese", "Mustard", "Mayonnaise", "Tomatoes")
+x = 1 
+results = ["Turkey", "Cheese", "Mustard", "Mayonnaise", "Tomatoes"]
 for i in results:
     print(f"{x} {i}")
     x = x + 1
